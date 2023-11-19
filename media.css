@@ -1,0 +1,44 @@
+/* media queries */
+
+@media screen and (max-width:970px){
+    .hero-content{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .intro-para{
+        text-align: justify;
+    }
+    .services-lower-content{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .portfolio-images{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .portfolio-items-list ul{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .portfolio-items-list ul li{
+        text-align: center;
+    }
+    .hero-left-content p br{
+        display: none;
+    }
+    .hero-right-content{
+        text-align: center;
+    }
+    .contact-upper-content p{
+        text-align: justify;
+    }
+    .social-box{
+        min-width: 250px;
+    }
+    .list ul li{
+        display: none;
+    }
+    #bars{
+        display: block;
+    }
+}
